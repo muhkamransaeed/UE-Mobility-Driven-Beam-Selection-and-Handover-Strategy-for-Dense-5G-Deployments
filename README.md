@@ -1,4 +1,4 @@
-# Project Description
+# UE-Mobility-Driven-Beam-Selection-and-Handover-Strategy-for-Dense-5G-Deployments
 
 This project simulates a user equipment (UE) moving in a multi-base-station (gNB) environment with mmWave communication. The simulation dynamically evaluates beamforming, SNR, and handover logic based on the UE's position and movement.
 
