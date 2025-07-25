@@ -22,9 +22,9 @@ Multiple gNBs and beamforming: Each gNB has a directional beam codebook (e.g., 1
 
 ### Beam switching and handover:
 
-#### Beam switch: within same gNB
+o Beam switch: within same gNB
 
-#### Handover: switch to a new gNB if SNR margin and time-to-trigger are satisfied
+o Handover: switch to a new gNB if SNR margin and time-to-trigger are satisfied
 
 ### Path loss and angular gain models
 
@@ -39,25 +39,23 @@ o Active beam index over time
 o UE trajectory with annotated beam switch and handover events
 
 ## Output Plots
-UE trajectory with gNB locations, beam switch (🟢), and handover points (🔴)
+o UE trajectory with gNB locations, beam switch (🟢), and handover points (🔴)
 
-SNR variation over time with threshold line
+## SNR variation over time with threshold line
+![Beams Switching and Handover](Beam_Switches_Handover.png)
+## Serving gNB index timeline
+![Serving gNB](ServingBS.png)
+## Use Cases
+### Testbed for mmWave mobility simulations
 
-Serving gNB index timeline
+### Analysis of beam management and handover strategies
 
-Active beam index timeline
+### Useful in research on:
 
-🔬 Use Cases
-Testbed for mmWave mobility simulations
+o 5G/6G mobility
 
-Analysis of beam management and handover strategies
+o Beamforming optimization
 
-Useful in research on:
+o Low-latency handover algorithms
 
-5G/6G mobility
-
-Beamforming optimization
-
-Low-latency handover algorithms
-
-Intelligent beam prediction
+o Intelligent beam prediction
